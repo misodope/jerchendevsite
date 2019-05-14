@@ -1,6 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
 
 import './About.scss';
+=======
+import { Link } from "react-router-dom";
+>>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
 
 export class About extends React.Component {
   constructor() {
@@ -10,6 +14,7 @@ export class About extends React.Component {
     };
   }
   render() {
+<<<<<<< HEAD
     const {
       aboutRef
     } = this.props;
@@ -33,6 +38,12 @@ export class About extends React.Component {
           <i className='devicon-sass-original'/> */}
         </div>
       </section>
+=======
+    return (
+      <div>
+        About
+      </div>
+>>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
     );
   };
 };

@@ -1,4 +1,8 @@
 node_modules
 package-lock.json
+<<<<<<< HEAD
 ./src/dist/bundle.js
 .DS_Store
+=======
+./src/dist/bundle.js
+>>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168

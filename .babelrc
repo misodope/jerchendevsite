@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
   "presets": ["@babel/preset-env", "@babel/preset-react"],
   "plugins": ["@babel/plugin-proposal-class-properties"]
+=======
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+>>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
 }
