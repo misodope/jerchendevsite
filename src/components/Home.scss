@@ -1,0 +1,30 @@
+@import './App.scss';
+
+.home {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  
+  @include mobile {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  &__container {
+    grid-row: 3 / 4;
+
+    @include mobile {
+       
+    }
+
+    &--job-title {
+      color: #7F95D1;
+      font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+    &--arrow {
+      grid-row: 4 / 4;
+    }
+  }
+}

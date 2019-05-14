@@ -1,0 +1,27 @@
+@import './App.scss';
+
+.navigation {
+  justify-content: flex-end;
+  padding: 30px;
+
+  @include mobile {
+    padding-bottom: 40px;
+  }
+  
+  &__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 25px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+
+    &--link {
+      text-decoration: none;
+    }
+  }
+}
+
+.fa-long-arrow-alt-up {
+  font-size: 20px;
+}
