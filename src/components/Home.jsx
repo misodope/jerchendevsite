@@ -1,19 +1,14 @@
 import React from 'react';
-<<<<<<< HEAD
 import {detectScreen} from '../utils/utils';
 import * as classNames from 'classnames';
 
 import './Home.scss';
-=======
-import { Link } from "react-router-dom";
->>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
 
 export class Home extends React.Component {
   constructor() {
     super();
 
     this.state = {
-<<<<<<< HEAD
       isMobile: false,
     };
   }
@@ -55,15 +50,6 @@ export class Home extends React.Component {
           <h1 className={jobCls}>Full Stack Engineer</h1>
         </div>
       </section>
-=======
-    };
-  }
-  render() {
-    return (
-      <div>
-        Home
-      </div>
->>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
     );
   };
 };

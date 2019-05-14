@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Card } from './Card.jsx';
-=======
-import { Link } from "react-router-dom";
->>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
 
 export class Work extends React.Component {
   constructor() {
@@ -13,7 +9,6 @@ export class Work extends React.Component {
     };
   }
   render() {
-<<<<<<< HEAD
     const {
       workRef
     } = this.props;
@@ -38,12 +33,6 @@ export class Work extends React.Component {
           My role here is working primarily on the cars port'
         />
       </section>
-=======
-    return (
-      <div>
-        Work
-      </div>
->>>>>>> ed0d7b314f47c06dfd96249c30a9b0d1172ac168
     );
   };
 };
