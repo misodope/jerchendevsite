@@ -47,7 +47,7 @@ export class Home extends React.Component {
       <section className='home row' ref={homeRef}>
         <div className='home__container'>
           <h1 className={nameCls}>Hey, I'm Jerry.</h1>
-          <h1 className={jobCls}>Full Stack Engineer</h1>
+          <h2 className={jobCls}>Full Stack Engineer</h2>
         </div>
       </section>
     );

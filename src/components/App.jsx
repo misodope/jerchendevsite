@@ -26,20 +26,17 @@ export class App extends React.Component {
         let particles = [];
         
         for (let i = 0; i < 30; i++) {
-        particles.push(<div key={i} className='particle'></div>)
+            particles.push(<div key={i} className='particle'></div>)
         }
 
         return (
-        <div id='particle-container'>{particles}</div>
+            <div id='particle-container'>{particles}</div>
         )
     }
 
     render() {
         return (
             <div className='react-app container'>
-                {
-                    this.renderParticles()
-                }
                 <Home homeRef={this.homeRef} />
                 <About aboutRef={this.aboutRef} />
                 {/* <Work workRef={this.workRef} />

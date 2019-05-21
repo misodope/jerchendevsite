@@ -9,6 +9,11 @@ export class About extends React.Component {
     this.state = {
     };
   }
+
+  componentDidMount() {
+
+  }
+
   render() {
     const {
       aboutRef
@@ -17,11 +22,11 @@ export class About extends React.Component {
     return (
       <section className='about row' ref={aboutRef}>
         <div className='about__container'>
-          <p className='about__container--blurb lead'>
+          {/* <p className='about__container--blurb lead'>
             I'm currently working at Consumer Reports as a Full Stack Software Engineer, residing in New York. 
             Here, I'm using PHP, Laravel, TypeScript, React, and Vue frameworks.
             I am passionate about all things tech, web, and code. I hope to be pursuing my Master's Degree soon to expand my knowledge of Computer Science.
-          </p>
+          </p> */}
           {/* <i className='devicon-php-plain'/>
           <i className='devicon-laravel-plain-wordmark'/>
           <i className='devicon-typescript-plain'/>
